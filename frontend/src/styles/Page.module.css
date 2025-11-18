@@ -1,0 +1,24 @@
+.pageHeading {
+  margin-bottom: 1.8rem;
+}
+
+.pageHeading h2 {
+  font-size: clamp(1.9rem, 3vw, 2.7rem);
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 18px rgba(0, 245, 255, 0.35);
+}
+
+.pageHeading p {
+  color: var(--color-muted);
+  max-width: 720px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.narrow {
+  max-width: 720px;
+}

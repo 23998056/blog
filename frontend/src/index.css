@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #e8f4ff;
+  background-color: #050508;
+  --color-primary: #9d4edd;
+  --color-secondary: #00f5ff;
+  --color-text: #e8f4ff;
+  --color-muted: #9aa6bf;
+  --color-border: rgba(255, 255, 255, 0.15);
+  --color-surface: rgba(12, 16, 38, 0.9);
+  --color-danger: #ff5f9e;
+  --shadow-sm: 0 15px 35px rgba(0, 245, 255, 0.15);
+  --shadow-xs: 0 8px 20px rgba(157, 78, 221, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, rgba(0, 245, 255, 0.25), transparent 45%),
+    radial-gradient(circle at 20% 20%, rgba(157, 78, 221, 0.4), transparent 55%),
+    #050508;
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-shadow: 0 0 4px rgba(0, 245, 255, 0.6);
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
